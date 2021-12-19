@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-50">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@tailwindcss" />
+  <meta name="twitter:title" content="Tailwind UI" />
+  <meta name="twitter:description"
+    content="404 page examples for Tailwind CSS, designed and built by the creators of the framework." />
+  <meta name="twitter:image" content="https://tailwindui.com/img/og-image.png" />
+  <meta name="twitter:creator" content="@tailwindcss" />
+  <meta property="og:url" content="https://www.tailwindui.com/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Tailwind UI" />
+  <meta property="og:description"
+    content="404 page examples for Tailwind CSS, designed and built by the creators of the framework." />
+  <meta property="og:image" content="https://tailwindui.com/img/og-image.png" />
+  <meta property="description"
+    content="404 page examples for Tailwind CSS, designed and built by the creators of the framework." />
+  <meta name="csrf-token" content="CONSTANT_TOKEN" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <link rel="preload" href="/fonts/Inter-roman.var.woff2?v=3.18" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/css/app.css" />
+  <title>404 Pages - Official Tailwind CSS UI Components</title>
+  <script>
+    function getActiveSnippet() {
+      try {
+        if (['html', 'react', 'vue'].includes(localStorage.activeSnippet)) {
+          return localStorage.activeSnippet
+        }
+        return 'html'
+      } catch (_) {
+        return 'html'
+      }
+    }
+    document.querySelector('html').classList.add('snippet-' + getActiveSnippet())
+  </script>
+</head>
+
+<body class="w-full h-full font-sans antialiased text-gray-600 min-h-full flex flex-col">
+  <div class="bg-white min-h-full flex justify-center items-center w-full px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
+    <div class="max-w-max mx-auto">
+      <main class="sm:flex">
+        <p class="text-4xl font-extrabold text-indigo-600 sm:text-5xl">404</p>
+        <div class="sm:ml-6">
+          <div class="sm:border-l sm:border-gray-200 sm:pl-6">
+            <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Page not found</h1>
+            <p class="mt-1 text-base text-gray-500">Please check the URL in the address bar and try again.</p>
+          </div>
+          <div class="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
+            <a href="/components" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Go back home
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="https://cdn.usefathom.com/script.js" site="SOXJJCZQ" defer></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/alpine.js"></script>
+  <script src="/js/prism.js" data-manual></script>
+</body>
+
+</html>
